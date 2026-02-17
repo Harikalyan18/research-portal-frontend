@@ -500,11 +500,12 @@ body {
 
 .simple-upload {
   text-align: center;
-  padding: 2rem;
+  padding: 2.5rem;
   border: 2px dashed #cbd5e1;
   border-radius: 12px;
   background: white;
   transition: border-color 0.3s;
+  margin-top: 25px
 }
 
 .simple-upload .browse-btn {

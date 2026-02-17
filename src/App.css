@@ -408,7 +408,6 @@ body {
 
 .error-state {
   text-align: center;
-  padding: 3rem;
   background: #fef2f2;
   border: 1px solid #fecaca;
   border-radius: 12px;
@@ -505,7 +504,7 @@ body {
   border-radius: 12px;
   background: white;
   transition: border-color 0.3s;
-  margin-top: 25px
+  margin-top: 25px;
 }
 
 .simple-upload .browse-btn {

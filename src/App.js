@@ -23,7 +23,9 @@ function App() {
       const { data } = await documentAPI.analyzeDocument(documentId)
       setAnalysis(data.result)
     } catch (err) {
-      setError(err.response?.data?.error || 'Analysis failed')
+      console.error('Frontend analysis error:', err);
+      console.error('Error response:', err.response);
+      setError(err.response?.data?.error || 'Analysis failed');
     } finally {
       setAnalyzing(false)
     }

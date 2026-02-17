@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const api = axios.create({
     baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5000/api',
-    timeout: 60000, // 60 seconds for AI processing
+    timeout: 500000, // 5 min for AI processing
 })
 
 export const documentAPI = {
